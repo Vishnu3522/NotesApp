@@ -1,13 +1,20 @@
+<<<<<<< HEAD
 import React from 'react'
 // import { Link } from "react-router-dom";
 
 import './Home.css';
 
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Home.css';
+>>>>>>> 9893569a9d5212d3c9c654fa4e09a78617d421a7
 
 function Home() {
   return (
     <div>
       <nav>
+<<<<<<< HEAD
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/about">About Us</a></li>
@@ -50,6 +57,18 @@ function Home() {
     </div>
 
   )
+=======
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="contact">Contact Us</a></li>
+          <li className="right"><Link to="/login">Login / Sign Up</Link></li> {/* Added the right class to the Login/Sign Up button */}
+        </ul>
+      </nav>
+    </div>
+  );
+>>>>>>> 9893569a9d5212d3c9c654fa4e09a78617d421a7
 }
 
-export default Home
+export default Home;
