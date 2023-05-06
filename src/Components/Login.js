@@ -19,6 +19,7 @@ const Login = () => {
   };
 
   return (
+  
     <div className="login-container">
       <h1>Login</h1>
       <hr />
@@ -41,6 +42,7 @@ const Login = () => {
       </form>
       <p>Don't have an account? <Link to="/signup">Signup here</Link>.</p>
     </div>
+    
   );
 };
 
