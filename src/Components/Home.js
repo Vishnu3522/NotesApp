@@ -7,11 +7,11 @@ function Home() {
     <div>
       <nav>
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About Us</a></li>
-    <li><a href="/services">Services</a></li>
-    <li><a href="contact">Contact Us</a></li>
-    <li><a href = "/login">Login</a></li>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/about">About Us</Link></li>
+    <li><Link  href="/services">Services</Link></li>
+    <li><Link to="/contact">Contact Us</Link></li>
+    <li className='right' ><Link to  = "/login">Login</Link></li>
   </ul>
 </nav>
 <div className='banner'>
