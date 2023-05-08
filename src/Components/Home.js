@@ -9,7 +9,7 @@ function Home() {
   <ul>
     <li><Link to="/">Home</Link></li>
     <li><Link to="/about">About Us</Link></li>
-    <li><Link  href="/services">Services</Link></li>
+    <li><Link to ="/services">Services</Link></li>
     <li><Link to="/contact">Contact Us</Link></li>
     <li className='right' ><Link to  = "/login">Login</Link></li>
   </ul>
